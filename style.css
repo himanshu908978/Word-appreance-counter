@@ -1,0 +1,134 @@
+*{
+    font-family: "SN Pro", sans-serif;
+    margin: 0vmin;
+    padding: 0vmin;
+}
+.allcontentwrapper{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    /* transform: translate(-50%,-50%); */
+    justify-content: center;
+    align-items: center;
+}
+.allcontent{
+    min-height: 40vmin;
+    max-height: 90vmin;
+    width:50vmin;
+    box-shadow: 0vmin 0vmin 3vmin rgba(0,0,0,0.4);
+    border-radius: 0.8vmin;
+}
+.allcontentcontainer{
+    /* min-height: 30vmin; */
+    /* max-height: 70vmin; */
+    margin-top: 5vmin;
+    margin-left: 5vmin;
+    display: flex;
+    flex-direction: column;
+    gap: 3vmin;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 1vmin;
+}
+ .inputp,.targetp{
+    font-weight: 600;
+    font-size: 3.5vmin;
+}
+
+/*
+input{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 4.5vmin;
+    max-height: 10vmin;
+    width: 40vmin;
+    border: none;
+    border-radius: 0.5vmin;
+    background-color: rgb(243, 243, 243);
+    padding-left: 1vmin;
+    cursor: pointer;
+    font-size: 2.5vmin;
+} */
+#newt1{
+    min-height: 4.5vmin;
+    max-height: 30vmin;
+    width: 38vmin;
+    border: none;
+    border-radius: 0.5vmin;
+    background-color: rgb(243, 243, 243);
+    padding: 1vmin;
+    font-size: 2.5vmin;
+    resize: none;
+    overflow-y: auto;
+}
+#newt2{
+    min-height: 4.5vmin;
+    max-height: 30vmin;
+    width: 38vmin;
+    border: none;
+    border-radius: 0.5vmin;
+    background-color: rgb(243, 243, 243);
+    padding: 1vmin;
+    font-size: 2.5vmin;
+    resize: none;
+    overflow-y: auto;
+}
+.enterbtn{
+    padding-bottom: 0.8vmin;
+}
+.enter{
+    height: 4vmin;
+    width: 10vmin;
+    font-size: 2.5vmin;
+    border: none;
+    border-radius: 0.5vmin;
+    cursor: pointer;
+    margin-top: -1vmin;
+    margin-left: 30vmin;
+}
+.enter:hover{
+    background-color: rgb(111, 111, 111);
+    color: rgb(255, 255, 255);
+}
+
+
+.linenos{
+    /* display: flex ; */
+    display: none;
+    flex-direction: column;
+    gap: 1vmin;
+    margin-top: -1vmin;
+    padding-bottom: -2vmin;
+    height:20vmin;
+}
+.linenop{
+    font-size: 2.4vmin;
+}
+.alllineno{
+    min-height: 2vmin;
+    max-height: 12vmin;
+    width: 42vmin;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1vmin;
+    background-color: rgb(255, 255, 255);
+}
+.lineno{
+    min-height: 3vmin;
+    width: fit-content;
+    max-width: 100%;
+    border: none;
+    padding: 0.5vmin 1.2vmin;
+    background: transparent;
+    font-size: 2.2vmin;
+    text-align: left;
+    white-space: nowrap;
+    overflow: visible;
+}
