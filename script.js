@@ -44,7 +44,7 @@ enterbtn.addEventListener("click", async (e) => {
 
 
 async function wordcounterAPI(Data){
-    const result = await fetch("http://127.0.0.1:8000/word_counter", {
+    const result = await fetch("https://word-appreance-counter.onrender.com/word_counter", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
